@@ -35,27 +35,6 @@ Before running the app locally, ensure the following are installed:
    git clone <repo-link>
    cd <repo-folder>
    ```markdown
-# Pokemon Search App
-
-The Pokemon Search App is a web application for exploring Pokémon data. It allows users to search, filter, sort, and view detailed information about Pokémon along with suggestions for similar Pokémon. Built using React.js, Node.js, and MongoDB, it seamlessly integrates data from the PokeAPI for an engaging experience.
-
----
-
-## Tech Stack
-
-- **Frontend:** React.js
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB
-- **Data Source:** PokeAPI
-
----
-
-## Pre-requisites
-
-- Node.js installed on your machine
-- MongoDB installed and running locally
-
----
 
 ## Migration & Seed Database Steps
 
