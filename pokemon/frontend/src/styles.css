@@ -1,1 +1,103 @@
-
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .navbar {
+    background-color: #ffcb05;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .pokemon-list-container {
+    padding: 2rem;
+  }
+  
+  /* Controls Section */
+  .controls {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .controls input,
+  .controls select {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .controls button {
+    padding: 0.5rem 1rem;
+    background-color: #ffcb05;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .controls button:hover {
+    background-color: #f5b905;
+  }
+  
+  /* Pokémon Grid Section */
+  .pokemon-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+  
+  .pokemon-card {
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    cursor: pointer;
+  }
+  
+  .pokemon-card img {
+    max-width: 100px;
+    margin-bottom: 1rem;
+  }
+  
+  .pokemon-card:hover {
+    background-color: #f9f9f9;
+  }
+  
+  /* Pagination Section */
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .pagination button {
+    margin: 0 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #ddd;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .pagination button:hover {
+    background-color: #ccc;
+  }
+  
+  /* Pokémon Details Section */
+  .pokemon-details {
+    padding: 2rem;
+  }
+  
+  .pokemon-info {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .similar-pokemon-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+  
