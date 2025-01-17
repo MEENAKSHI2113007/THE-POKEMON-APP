@@ -32,8 +32,8 @@ Before running the app locally, ensure the following are installed:
 2. **Clone Repository**  
    Clone the repository to your local system:
    ```bash
-   git clone <repo-link>
-   cd <repo-folder>
+   git clone <https://github.com/MEENAKSHI2113007/THE-POKEMON-APP.git>
+   cd <THE-POKEMON-APP>
    ```markdown
 
 ## Migration & Seed Database Steps
